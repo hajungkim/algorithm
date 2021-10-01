@@ -39,9 +39,7 @@ public class Main_10972 {
                 break;
             }
         }
-        if (N == 1) {
-            System.out.println(1);
-        } else if (last) {
+        if (last) {
             System.out.println(-1);
         } else {
             StringBuilder sb = new StringBuilder();
