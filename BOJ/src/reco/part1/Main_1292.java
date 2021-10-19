@@ -1,6 +1,7 @@
 package reco.part1;
 /*
-
+쉽게 푸는 문제
+https://www.acmicpc.net/problem/1292
  */
 import java.util.*;
 import java.io.*;
