@@ -5,13 +5,12 @@ https://programmers.co.kr/learn/courses/30/lessons/42890
  */
 import java.util.*;
 public class Solution_42890 {
-    int len, answer;
+    int len;
     boolean[] visit;
     List<String> list;
 
     public int solution(String[][] relation) {
         len = relation[0].length;
-        answer = 0;
         list = new ArrayList<>();
 
         for (int i = 0; i < len; i++) {
